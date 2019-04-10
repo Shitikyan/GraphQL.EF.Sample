@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{12DB3D93-054C-4670-889F-5497597559A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL.EntityFramework", "GraphQL.EntityFramework\src\GraphQL.EntityFramework\GraphQL.EntityFramework.csproj", "{94E3987B-0044-48AC-B076-B4A1029845D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DB3D93-054C-4670-889F-5497597559A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DB3D93-054C-4670-889F-5497597559A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DB3D93-054C-4670-889F-5497597559A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DB3D93-054C-4670-889F-5497597559A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E3987B-0044-48AC-B076-B4A1029845D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E3987B-0044-48AC-B076-B4A1029845D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E3987B-0044-48AC-B076-B4A1029845D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E3987B-0044-48AC-B076-B4A1029845D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7D554D3-0BA3-418F-A17C-DCA6B090E03D}
+	EndGlobalSection
+EndGlobal
