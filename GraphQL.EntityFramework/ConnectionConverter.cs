@@ -149,7 +149,7 @@ static class ConnectionConverter
             // last after
             skip = after.Value + 1;
         }
-
+        
         return Range(list, skip, take: last, count, context, filters, cancellation, true);
     }
 
