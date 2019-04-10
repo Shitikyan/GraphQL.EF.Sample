@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -11,13 +11,11 @@
     <PackageReference Include="GraphQL.Server.Transports.WebSockets" Version="3.4.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="GraphQL.EntityFramework">
-      <HintPath>..\GraphQL.EntityFramework\src\GraphQL.EntityFramework\bin\Debug\netstandard2.0\GraphQL.EntityFramework.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\GraphQL.EntityFramework\GraphQL.EntityFramework.csproj" />
   </ItemGroup>
 
 </Project>
